@@ -1,0 +1,63 @@
+.app-wrapper {
+	width: 600px;
+	max-width: 100%;
+	margin: 30px auto;
+}
+
+.app-title{
+	text-align: center;
+}
+
+.close-absolute{
+	position: absolute;
+	right: 1.25rem;
+	top: .5rem;
+}
+
+.modal{
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.cur-value{
+	padding-right: 40px;
+}
+
+.center-absolute{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.wrap-loading{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, .8);
+	z-index: 9999;
+	text-align: center;
+}
+
+.wrap-loading.hide{
+	display: none;
+}
+
+.loading {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	margin-top: -40px;
+	/*animation: loading-spin infinite 20s linear;*/
+	height: 80px;
+}
+
+@keyframes loading-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
