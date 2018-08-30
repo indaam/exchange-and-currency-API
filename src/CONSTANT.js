@@ -1,5 +1,5 @@
 const REST_COUNTRIES_CURRENCIES = 'https://restcountries.eu/rest/v2/all';
-const REST_EXCHANGERATES = 'https://exchangeratesapi.io/api/latest';
+const REST_EXCHANGERATES = 'https://api.exchangeratesapi.io/latest';
 const DEFAULT_LIST = 'CAD,IDR,GBP,CHF,INR,MYR,JPY,KRW';
 // const DEFAULT_LIST = 'CAD,IDR';
 
